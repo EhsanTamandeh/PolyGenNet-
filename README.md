@@ -64,7 +64,7 @@ Focusing on traits with high-confidence gene associations, we identified those w
 
 To construct the interaction networks for each trait, we calculated the gene-gene interaction network adjacency matrix using the GWAS data. This matrix provided a detailed statistical representation of the interactions within each network. For further validation and visualization, we also utilized data from the STRING database.
 
-<img src="Untitled.png" alt="Untitled.png" width="600"/>
+<img src="Untitled.png" alt="Untitled.png" width="800"/>
 
 ## Analysis Scheme Overview :
 
