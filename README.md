@@ -36,12 +36,12 @@ Trait-specific variations in gene interaction networks play a critical role in u
 To install and set up the PolyGenNet- framework on your local machine, follow these steps:
 
 1. To install this package, start R (version "4.4") and enter:
-
+```bash
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
 BiocManager::install("STRINGdb")
-
+```markdown
 
 ## Features
 
