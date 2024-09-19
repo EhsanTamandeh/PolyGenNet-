@@ -35,13 +35,20 @@ Trait-specific variations in gene interaction networks play a critical role in u
 
 To install and set up the PolyGenNet- framework on your local machine, follow these steps:
 
-1. To install this package, start R (version "4.4") and enter:
+1. The "STRINGdb" package provides a R interface to the STRING protein-protein interactions database (https://string-db.org).
+   To install the "STRING db" package, start R (version "4.4") and enter:
 ```bash
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
 BiocManager::install("STRINGdb")
 ```
+2. The "gconvert" package enables to map between genes, proteins, microarray probes, common names, various database identifiers, etc, from numerous databases and for many species.
+to install the "g:Profiler" package in R enter:
+```bash
+install.packages("gprofiler2")
+```
+
 
 ## Features
 
