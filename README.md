@@ -104,7 +104,7 @@ Network Structure Identification: To determine the optimal network structure, we
 
 To install and set up the PolyGenNet- framework on your local machine, follow these steps:
 
-1. The STRING (https://www.string-db.org) is a database of known and predicted protein-protein interactions. The interactions include direct (physical) and indirect (functional) associations. The database contains information from numerous sources, including experimental repositories, computational prediction methods and public text collections. Each interaction is associated with a combined confidence score that integrates the various evidences.
+1. The **"STRING db"** (https://www.string-db.org) is a database of known and predicted protein-protein interactions. The interactions include direct (physical) and indirect (functional) associations. The database contains information from numerous sources, including experimental repositories, computational prediction methods and public text collections. Each interaction is associated with a combined confidence score that integrates the various evidences.
 
     To install the "STRING db" package, start R (version "4.4") and enter:
    ```bash
@@ -114,7 +114,7 @@ To install and set up the PolyGenNet- framework on your local machine, follow th
    BiocManager::install("STRINGdb")
    ```
 
-3. The "g:Convert" is a feature within the "gprofiler" package suite that allows for mapping between different biological identifiers such as genes, proteins, microarray probes, and database-specific identifiers.
+3. The **"g:Convert"** is a feature within the "gprofiler" package suite that allows for mapping between different biological identifiers such as genes, proteins, microarray probes, and database-specific identifiers.
    It supports mapping across numerous databases (e.g., Ensembl, UniProt, NCBI, etc.) and for a wide range of species.
 
    Key Use Cases of g:Convert:
@@ -139,24 +139,7 @@ In gene interaction networks, genes and gene products interact with each other t
 These networks exhibit properties such as modularity and scale-free topology, where a few highly connected genes (hubs) play critical roles in maintaining cellular functions. 
 Variations in these hubs or their interactions can have cascading effects on the network, leading to phenotypic changes associated with diseases. For instance, genes involved in Schizophrenia (SCZ) or other complex diseases often participate in common pathways or modules within the gene interaction network, even though the specific mutations may differ across patients.
 
-### Key Features:
-- Visualization of gene-gene interacton networks.
-- Gene-gene interaction networks specific to different traits.
-- Modularity detection in complex networks.
-- Exploration of trait-specific gene interactions.
-- Integration of GWAS datasets for large-scale analysis.
-- Identification of trait-specific gene interaction variations.
 
-## Usage
-
-PolyGenNet- allows users to analyze both physical and functional interaction networks with different gene types such as associated or non-associated genes across different traits. Physical interaction networks, constructed using experimental methods like yeast two-hybrid (Y2H) assays or tandem affinity purification coupled to mass spectrometry (TAP-MS), identify direct protein-protein interactions. Functional interaction networks, on the other hand, connect genes that work together to perform specific biological functions, based on co-expression patterns, gene ontology, and other data sources. These functional networks are invaluable for understanding how genetic variations affect gene regulation and contribute to disease.
-
-### Example command:
-```bash
-python run_analysis.py --input data/input_data.csv --trait "TraitName"
-
-
----
 
 ### 4. **Article Related to the Repository**  
 You can include the final paragraph in the **Article Related to PolyGenNet-** section to summarize the scientific importance of network-based approaches in complex traits.
@@ -170,33 +153,7 @@ You can include the final paragraph in the **Article Related to PolyGenNet-** se
 In the study of complex traits, modular structures within gene interaction networks are particularly informative. Disease-related genes often cluster in specific modules, reflecting how different genetic variants may converge on the same biological processes. This network-based approach provides a more comprehensive understanding of the genetic architecture of complex traits, moving beyond single-gene studies to capture the broader system-level interactions that drive human disease.
 
 
-## Contributing
-
-Contributions to PolyGenNet- are welcome. If you would like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add your feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. Submit a pull request.
-
-Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
-
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
-
 
 ## Acknowledgments
 
-Special thanks to my co-authors Johannes Schumacher, Carlo Maj, and Pouria Dasmeh for their contributions to the research behind this project.
+Special thanks to my supervisors Johannes Schumacher, Carlo Maj, and Pouria Dasmeh for their contributions to the research behind this project.
