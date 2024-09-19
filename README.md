@@ -45,11 +45,15 @@ To install and set up the PolyGenNet- framework on your local machine, follow th
    BiocManager::install("STRINGdb")
    ```
 
-3. The "g:Convert" is a feature within the "gprofiler" package suite that allows for mapping between different biological identifiers such as genes, proteins, microarray probes, and database-specific identifiers. It supports mapping across numerous databases (e.g., Ensembl, UniProt, NCBI, etc.) and for a wide range of species.
+3. The "g:Convert" is a feature within the "gprofiler" package suite that allows for mapping between different biological identifiers such as genes, proteins, microarray probes, and database-specific identifiers.
+   It supports mapping across numerous databases (e.g., Ensembl, UniProt, NCBI, etc.) and for a wide range of species.
+
    Key Use Cases of g:Convert:
+   
    Gene/Protein Identifier Conversion: Map identifiers across different formats, like converting Ensembl gene IDs to gene symbols or UniProt IDs.
    Cross-Species Mapping: Transfer gene/protein information from one organism to another when homologous relationships are known.
    Unifying Data Sources: Standardize identifiers when working with datasets from different sources that use varied naming conventions.
+   
    Example Mappings:
    Gene to Protein ID: Convert gene symbols (like BRCA1) to corresponding UniProt or Ensembl IDs.
    Microarray Probes to Gene Symbols: Map probe IDs from microarray data to gene names for further analysis.
