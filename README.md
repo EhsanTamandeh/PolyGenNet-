@@ -33,8 +33,10 @@ The repository contains tools and scripts used in the analysis of this study.
 
 
 ## Associated Gene-Gene Interaction Networks examples: 
-<img src="graph_plot_3342.png" alt="Associated Gene-Gene Interaction Networks 1" width="300"/>
-<img src="graph_plot_3412.png" alt="Associated Gene-Gene Interaction Networks 2" width="300"/>
+<div style="display: flex; gap: 10px;">
+  <img src="graph_plot_3342.png" alt="Associated Gene-Gene Interaction Networks 1" width="300"/>
+  <img src="graph_plot_3412.png" alt="Associated Gene-Gene Interaction Networks 2" width="300"/>
+</div>
 
 ## Non-associated Gene-Gene Interaction Networks examples: 
 <img src="graph_plot_13.png" alt="Non-associated Gene-Gene Interaction Networks 3" width="300"/>
