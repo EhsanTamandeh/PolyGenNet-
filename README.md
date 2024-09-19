@@ -3,7 +3,8 @@
     
 </div>
 
-# PolyGenNet-
+
+# Introduction
 
 PolyGenNet- is a computational framework designed to analyze and visualize gene interaction networks in the context of complex human traits. The platform integrates multiple datasets to uncover trait-specific variations in gene interactions and provides an accessible interface for both exploratory analysis and hypothesis-driven research.
 
