@@ -57,7 +57,32 @@ For further reading, you can refer to the full article [here](link-to-the-articl
 
 ## Project Overview
 
-Trait-specific variations in gene interaction networks play a critical role in understanding the genetic underpinnings of complex human traits. Complex traits, such as cancer, diabetes, and autism, arise from the interplay of multiple genetic perturbations, where no single mutation can be solely attributed as the cause. Rather, these traits emerge from combinations of genetic variations that disrupt multiple genes and pathways, leading to a network-wide dysregulation. Studying gene interaction networks offers insights into how these genetic changes collectively influence biological systems and contribute to disease phenotypes.
+Our analysis began with the compilation of gene names and their associations with various traits using **Genome-Wide Association Studies (GWAS)**. 
+To evaluate the strength of these associations, we employed confidence scores: scores below 0.4 indicate a weak association, scores around 0.7 suggest a moderate association, and scores above 0.9 denote a strong association between a gene and a trait.
+
+Focusing on traits with high-confidence gene associations, we identified those with at least 60 genes scoring above 0.9, which refined our analysis to 461 traits out of the 4,756 initially available in the GWAS data. The dataset also included a total of 20,188 genes.
+
+To construct the interaction networks for each trait, we calculated the gene-gene interaction network adjacency matrix using the GWAS data. This matrix provided a detailed statistical representation of the interactions within each network. For further validation and visualization, we also utilized data from the STRING database.
+
+
+## Analysis Scheme Overview :
+
+**Gene Selection:**
+We categorized genes based on their confidence scores. 
+Genes with the highest scores in a trait were labeled as **"associated genes"**, while those with lower scores were termed **"non-associated genes"**.
+
+**Interaction Compilation:** 
+We gathered all possible gene interactions for each selected trait using GWAS, ensuring a comprehensive representation of gene interactions across a wide range of organs and biological systems.
+Network Analysis: We analyzed the structure of these gene-gene interaction networks by calculating the number of "interactions" within the network. This analysis allowed us to distinguish between "connected genes," which represent genes that interact with others, and "isolated genes," representing genes without interactions.
+
+**Comparative Analysis:** 
+For each trait, we calculated two sets of values—one for associated genes and another for non-associated genes—covering the **number of connected genes, isolated genes, gene-gene interactions, and the highest degree** within the network. Comparing these values enabled us to draw insights into the differences in network structures between associated and non-associated genes.
+
+**Degree Distribution and Network Structure:** 
+We investigated the degree distribution of connected and isolated genes to better understand the network dynamics. 
+The degree distribution analysis was essential for exploring the relationship between connected and isolated genes within these networks.
+Network Structure Identification: To determine the optimal network structure, we applied the Akaike Information Criterion (AIC) method. By evaluating the AIC values for various potential structures and selecting the one with the lowest AIC, we identified the most appropriate network structure for each trait's gene-gene interaction network.
+
 
 ## Installation
 
@@ -94,10 +119,9 @@ To install and set up the PolyGenNet- framework on your local machine, follow th
 
 ## Features
 
-
 In gene interaction networks, genes and gene products interact with each other through physical and functional connections, forming complex networks. 
 These networks exhibit properties such as modularity and scale-free topology, where a few highly connected genes (hubs) play critical roles in maintaining cellular functions. 
-Variations in these hubs or their interactions can have cascading effects on the network, leading to phenotypic changes associated with diseases. For instance, genes involved in autism spectrum disorders (ASDs) or other complex diseases often participate in common pathways or modules within the gene interaction network, even though the specific mutations may differ across patients.
+Variations in these hubs or their interactions can have cascading effects on the network, leading to phenotypic changes associated with diseases. For instance, genes involved in Schizophrenia (SCZ) or other complex diseases often participate in common pathways or modules within the gene interaction network, even though the specific mutations may differ across patients.
 
 ### Key Features:
 - Visualization of gene-gene interacton networks.
@@ -109,7 +133,7 @@ Variations in these hubs or their interactions can have cascading effects on the
 
 ## Usage
 
-PolyGenNet- allows users to analyze both physical and functional interaction networks. Physical interaction networks, constructed using experimental methods like yeast two-hybrid (Y2H) assays or tandem affinity purification coupled to mass spectrometry (TAP-MS), identify direct protein-protein interactions. Functional interaction networks, on the other hand, connect genes that work together to perform specific biological functions, based on co-expression patterns, gene ontology, and other data sources. These functional networks are invaluable for understanding how genetic variations affect gene regulation and contribute to disease.
+PolyGenNet- allows users to analyze both physical and functional interaction networks with different gene types such as associated or non-associated genes across different traits. Physical interaction networks, constructed using experimental methods like yeast two-hybrid (Y2H) assays or tandem affinity purification coupled to mass spectrometry (TAP-MS), identify direct protein-protein interactions. Functional interaction networks, on the other hand, connect genes that work together to perform specific biological functions, based on co-expression patterns, gene ontology, and other data sources. These functional networks are invaluable for understanding how genetic variations affect gene regulation and contribute to disease.
 
 ### Example command:
 ```bash
