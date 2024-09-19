@@ -35,15 +35,26 @@ Trait-specific variations in gene interaction networks play a critical role in u
 
 To install and set up the PolyGenNet- framework on your local machine, follow these steps:
 
-1. The "STRINGdb" package provides a R interface to the STRING protein-protein interactions database (https://string-db.org).
-   To install the "STRING db" package, start R (version "4.4") and enter:
+1. The STRING (https://www.string-db.org) is a database of known and predicted protein-protein interactions. The interactions include direct (physical) and indirect (functional) associations. The database contains information from numerous sources, including experimental repositories, computational prediction methods and public text collections. Each interaction is associated with a combined confidence score that integrates the various evidences.
+
+To install the "STRING db" package, start R (version "4.4") and enter:
 ```bash
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
 BiocManager::install("STRINGdb")
 ```
-2. The "gconvert" package enables to map between genes, proteins, microarray probes, common names, various database identifiers, etc, from numerous databases and for many species.
+
+2. The "g:Convert" is a feature within the "gprofiler" package suite that allows for mapping between different biological identifiers such as genes, proteins, microarray probes, and database-specific identifiers. It supports mapping across numerous databases (e.g., Ensembl, UniProt, NCBI, etc.) and for a wide range of species.
+
+Key Use Cases of g:Convert:
+Gene/Protein Identifier Conversion: Map identifiers across different formats, like converting Ensembl gene IDs to gene symbols or UniProt IDs.
+Cross-Species Mapping: Transfer gene/protein information from one organism to another when homologous relationships are known.
+Unifying Data Sources: Standardize identifiers when working with datasets from different sources that use varied naming conventions.
+Example Mappings:
+Gene to Protein ID: Convert gene symbols (like BRCA1) to corresponding UniProt or Ensembl IDs.
+Microarray Probes to Gene Symbols: Map probe IDs from microarray data to gene names for further analysis.
+
 to install the "g:Profiler" package in R enter:
 ```bash
 install.packages("gprofiler2")
