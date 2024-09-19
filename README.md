@@ -63,7 +63,7 @@ To evaluate the strength of these associations, we employed confidence scores: s
 Focusing on traits with high-confidence gene associations, we identified those with at least 60 genes scoring above 0.9, which refined our analysis to 461 traits out of the 4,756 initially available in the GWAS data. The dataset also included a total of 20,188 genes.
 
 To construct the interaction networks for each trait, we calculated the gene-gene interaction network adjacency matrix using the GWAS data. This matrix provided a detailed statistical representation of the interactions within each network. For further validation and visualization, we also utilized data from the STRING database.
-
+<img src="Untitled.png" alt="Untitled.png" width="600"/>
 
 ## Analysis Scheme Overview :
 
