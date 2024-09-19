@@ -72,14 +72,17 @@ To construct the interaction networks for each trait, we calculated the gene-gen
 We categorized genes based on their confidence scores. 
 Genes with the highest scores in a trait were labeled as **"associated genes"**, while those with lower scores were termed **"non-associated genes"**.
 
+
 **Interaction Compilation:** 
 
 We gathered all possible gene interactions for each selected trait using GWAS, ensuring a comprehensive representation of gene interactions across a wide range of organs and biological systems.
 Network Analysis: We analyzed the structure of these gene-gene interaction networks by calculating the number of "interactions" within the network. This analysis allowed us to distinguish between "connected genes," which represent genes that interact with others, and "isolated genes," representing genes without interactions.
 
+
 **Comparative Analysis:** 
 
 For each trait, we calculated two sets of values—one for associated genes and another for non-associated genes—covering the **number of connected genes, isolated genes, gene-gene interactions, and the highest degree** within the network. Comparing these values enabled us to draw insights into the differences in network structures between associated and non-associated genes.
+
 
 **Degree Distribution and Network Structure:** 
 
