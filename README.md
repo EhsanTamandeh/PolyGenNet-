@@ -20,9 +20,14 @@ Ehsan Tamandeh, Johannes Schumacher, Carlo Maj, Pouria Dasmeh
 
 This project is inspired by and associated with the research presented in the paper *Trait-Specific Variations in Gene Interaction Networks Underlying Complex Human Traits*. The work explores the interplay between gene networks and complex human traits, revealing trait-specific patterns of genetic interaction. The repository contains tools and scripts used in the analysis of this study.
 
-![Associated Gene-Gene Interaction Networks 9](graph_plot_10.png)
-![Associated Gene-Gene Interaction Networks 68](graph_plot_68.png)
-![Associated Gene-Gene Interaction Networks 108](graph_plot_108.png)
+
+**Associated Gene-Gene Interaction Networks examples:** 
+
+![Associated Gene-Gene Interaction Networks 1](graph_plot_10.png)
+![Associated Gene-Gene Interaction Networks 2](graph_plot_1203.png)
+![Associated Gene-Gene Interaction Networks 3](graph_plot_3342.png)
+![Associated Gene-Gene Interaction Networks 3](graph_plot_3342.png)
+
 For further reading, you can refer to the full article [here](link-to-the-article).
 
 ## Table of Contents
