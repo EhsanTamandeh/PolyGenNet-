@@ -144,7 +144,7 @@ Variations in these hubs or their interactions can have cascading effects on the
 ### 4. **Article Related to the Repository**  
 You can include the final paragraph in the **Article Related to PolyGenNet-** section to summarize the scientific importance of network-based approaches in complex traits.
 
-```markdown
+
 ## Article Related to PolyGenNet-
 
 **Title**: Trait-Specific Variations in Gene Interaction Networks Underlying Complex Human Traits  
