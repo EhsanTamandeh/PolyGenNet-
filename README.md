@@ -19,12 +19,17 @@ This project is inspired by and associated with the research presented in the pa
 For further reading, you can refer to the full article [here](link-to-the-article).
 
 ## Table of Contents
+- [Project Overview](#Project_Overview)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Features](#features)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+
+## Project Overview
+
+Trait-specific variations in gene interaction networks play a critical role in understanding the genetic underpinnings of complex human traits. Complex traits, such as cancer, diabetes, and autism, arise from the interplay of multiple genetic perturbations, where no single mutation can be solely attributed as the cause. Rather, these traits emerge from combinations of genetic variations that disrupt multiple genes and pathways, leading to a network-wide dysregulation. Studying gene interaction networks offers insights into how these genetic changes collectively influence biological systems and contribute to disease phenotypes.
 
 ## Installation
 
@@ -47,25 +52,44 @@ To install and set up the PolyGenNet- framework on your local machine, follow th
 
 4. (Optional) Set up your local environment and configuration settings.
 
+
+
+
+## Features
+
+
+In gene interaction networks, genes and gene products interact with each other through physical and functional connections, forming complex networks. These networks exhibit properties such as modularity and scale-free topology, where a few highly connected genes (hubs) play critical roles in maintaining cellular functions. Variations in these hubs or their interactions can have cascading effects on the network, leading to phenotypic changes associated with diseases. For instance, genes involved in autism spectrum disorders (ASDs) or other complex diseases often participate in common pathways or modules within the gene interaction network, even though the specific mutations may differ across patients.
+
+### Key Features:
+- Visualization of gene-gene interacton networks.
+- Gene-gene interaction networks specific to different traits.
+- Modularity detection in complex networks.
+- Exploration of trait-specific gene interactions.
+- Integration of GWAS datasets for large-scale analysis.
+- Identification of trait-specific gene interaction variations.
+
 ## Usage
 
-To run the analysis on gene interaction networks, execute the following command:
+PolyGenNet- allows users to analyze both physical and functional interaction networks. Physical interaction networks, constructed using experimental methods like yeast two-hybrid (Y2H) assays or tandem affinity purification coupled to mass spectrometry (TAP-MS), identify direct protein-protein interactions. Functional interaction networks, on the other hand, connect genes that work together to perform specific biological functions, based on co-expression patterns, gene ontology, and other data sources. These functional networks are invaluable for understanding how genetic variations affect gene regulation and contribute to disease.
 
+### Example command:
 ```bash
 python run_analysis.py --input data/input_data.csv --trait "TraitName"
 
 
+---
 
-#### 6. **Features**
-Highlight the key functionalities and tools included in the repository.
+### 4. **Article Related to the Repository**  
+You can include the final paragraph in the **Article Related to PolyGenNet-** section to summarize the scientific importance of network-based approaches in complex traits.
 
 ```markdown
-## Features
+## Article Related to PolyGenNet-
 
-- Visualization of gene interaction networks specific to different traits.
-- Integration of GWAS datasets for large-scale analysis.
-- Identification of trait-specific gene interaction variations.
-- Easy-to-use interface for hypothesis testing and exploratory data analysis.
+**Title**: Trait-Specific Variations in Gene Interaction Networks Underlying Complex Human Traits  
+**Authors**: Ehsan Tamandeh, Johannes Schumacher, Carlo Maj, Pouria Dasmeh  
+
+In the study of complex traits, modular structures within gene interaction networks are particularly informative. Disease-related genes often cluster in specific modules, reflecting how different genetic variants may converge on the same biological processes. This network-based approach provides a more comprehensive understanding of the genetic architecture of complex traits, moving beyond single-gene studies to capture the broader system-level interactions that drive human disease.
+
 
 ## Contributing
 
