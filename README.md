@@ -141,19 +141,6 @@ Variations in these hubs or their interactions can have cascading effects on the
 
 
 
-### 4. **Article Related to the Repository**  
-You can include the final paragraph in the **Article Related to PolyGenNet-** section to summarize the scientific importance of network-based approaches in complex traits.
-
-
-## Article Related to PolyGenNet-
-
-**Title**: Trait-Specific Variations in Gene Interaction Networks Underlying Complex Human Traits  
-**Authors**: Ehsan Tamandeh, Johannes Schumacher, Carlo Maj, Pouria Dasmeh  
-
-In the study of complex traits, modular structures within gene interaction networks are particularly informative. Disease-related genes often cluster in specific modules, reflecting how different genetic variants may converge on the same biological processes. This network-based approach provides a more comprehensive understanding of the genetic architecture of complex traits, moving beyond single-gene studies to capture the broader system-level interactions that drive human disease.
-
-
-
 ## Acknowledgments
 
 Special thanks to my supervisors Johannes Schumacher, Carlo Maj, and Pouria Dasmeh for their contributions to the research behind this project.
