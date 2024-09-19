@@ -58,7 +58,7 @@ To install and set up the PolyGenNet- framework on your local machine, follow th
    Gene to Protein ID: Convert gene symbols (like BRCA1) to corresponding UniProt or Ensembl IDs.
    Microarray Probes to Gene Symbols: Map probe IDs from microarray data to gene names for further analysis.
 
-   to install the "g:Profiler" package in R enter:
+   To install the "g:Profiler" package in R enter:
    ```bash
    install.packages("gprofiler2")
    ```
@@ -67,7 +67,9 @@ To install and set up the PolyGenNet- framework on your local machine, follow th
 ## Features
 
 
-In gene interaction networks, genes and gene products interact with each other through physical and functional connections, forming complex networks. These networks exhibit properties such as modularity and scale-free topology, where a few highly connected genes (hubs) play critical roles in maintaining cellular functions. Variations in these hubs or their interactions can have cascading effects on the network, leading to phenotypic changes associated with diseases. For instance, genes involved in autism spectrum disorders (ASDs) or other complex diseases often participate in common pathways or modules within the gene interaction network, even though the specific mutations may differ across patients.
+In gene interaction networks, genes and gene products interact with each other through physical and functional connections, forming complex networks. 
+These networks exhibit properties such as modularity and scale-free topology, where a few highly connected genes (hubs) play critical roles in maintaining cellular functions. 
+Variations in these hubs or their interactions can have cascading effects on the network, leading to phenotypic changes associated with diseases. For instance, genes involved in autism spectrum disorders (ASDs) or other complex diseases often participate in common pathways or modules within the gene interaction network, even though the specific mutations may differ across patients.
 
 ### Key Features:
 - Visualization of gene-gene interacton networks.
