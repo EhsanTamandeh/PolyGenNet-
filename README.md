@@ -6,7 +6,7 @@
 
 # Introduction
 
-PolyGenNet- is a computational framework designed to analyze and visualize gene interaction networks in the context of complex human traits. The platform integrates multiple datasets to uncover trait-specific variations in gene interactions and provides an accessible interface for both exploratory analysis and hypothesis-driven research.
+PolyGenNet- is a computational framework designed to analyze and visualize **gene-gene interaction networks** in the context of complex human traits. The platform integrates multiple datasets to uncover trait-specific variations in gene interactions and provides an accessible interface for both exploratory analysis and hypothesis-driven research.
 
 
 ## Article Related to PolyGenNet-
@@ -18,7 +18,9 @@ Trait-Specific Variations in Gene Interaction Networks Underlying Complex Human 
 Ehsan Tamandeh, Johannes Schumacher, Carlo Maj, Pouria Dasmeh
 
 
-This project is inspired by and associated with the research presented in the paper *Trait-Specific Variations in Gene Interaction Networks Underlying Complex Human Traits*. The work explores the interplay between gene networks and complex human traits, revealing trait-specific patterns of genetic interaction. The repository contains tools and scripts used in the analysis of this study.
+This project is inspired by and associated with the research presented in the paper **Trait-Specific Variations in Gene Interaction Networks Underlying Complex Human Traits**. The work explores the interplay between gene networks and complex human traits, revealing trait-specific patterns of genetic interaction. We then wanted to see whether the characteristics  we observed between **associated and non-associated** networks also extend to a broader spectrum of complex traits.  
+
+The repository contains tools and scripts used in the analysis of this study.
 
 
 
