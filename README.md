@@ -35,24 +35,12 @@ Trait-specific variations in gene interaction networks play a critical role in u
 
 To install and set up the PolyGenNet- framework on your local machine, follow these steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/PolyGenNet-.git
-   ```
+1. To install this package, start R (version "4.4") and enter:
 
-2. Navigate to the project directory:
-   ```bash
-   cd PolyGenNet-
-   ```
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
 
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. (Optional) Set up your local environment and configuration settings.
-
-
+BiocManager::install("STRINGdb")
 
 
 ## Features
