@@ -167,6 +167,7 @@ The table presents an analysis of gene networks associated with various traits, 
 
 The average data for all analyzed traits reinforce this trend, with associated traits generally demonstrating a more complex network structure, as evidenced by the larger number of connected genes and interactions. Additionally, the slope of the degree distribution on log-log scales indicates that associated networks maintain a more substantial presence of highly connected genes, which can be crucial for understanding the functional roles of these genes in disease processes. Overall, this analysis underscores the importance of network connectivity in elucidating the genetic basis of complex traits, providing insights that could inform future research and therapeutic strategies.
 
+![scatter plots]((https://drive.google.com/file/d/1HzI9DFLjvaj_I0n0DhbkJf0_fs43LPU2))
 
 ## Contact
 
