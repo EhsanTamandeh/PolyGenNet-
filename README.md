@@ -162,6 +162,8 @@ Variations in these hubs or their interactions can have cascading effects on the
 
 ## Results
 
+The following table summarizes key metrics related to gene networks for several traits, comparing associated and non-associated networks to reveal significant differences in gene connectivity and interaction dynamics.
+
 ![3 examples](https://drive.google.com/uc?id=1vfZz4MJL_NpgfvOHEiW4-zspkDcJMm_w)
 
 The table presents an analysis of gene networks associated with various traits, illustrating the differences between associated and non-associated networks. This comparative approach highlights how traits linked to specific conditions, such as schizophrenia, Crohn's disease, and coronary artery disease, tend to exhibit greater connectivity among genes. In associated networks, a higher number of connected genes and gene-gene interactions are observed, indicating a more intricate web of relationships that may underlie the biological mechanisms of these traits. Conversely, non-associated networks show fewer connections, suggesting a potential lack of significant interaction among the genes in these cases.
