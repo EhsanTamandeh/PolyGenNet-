@@ -31,7 +31,7 @@ for (col_num in A) {
   # Get the p-values from column A
   p_values <- data_matrix[-1, col_num]
   
-  # Sort the p-values in decreasing order
+  # Sort the p-values
   sorted_p_values <- sort(p_values)
   #, decreasing = TRUE
   
