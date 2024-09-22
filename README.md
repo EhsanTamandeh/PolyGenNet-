@@ -29,7 +29,9 @@ We then wanted to see whether the characteristics  we observed between **associa
 
 The repository contains tools and scripts used in the analysis of this study.
 
+## Why Network Analysis?
 
+Network analysis provides a powerful framework for uncovering more layers of information in complex biological systems. It enables us to abstract relationships between genes and proteins, predict interactions among traits, and study the underlying mechanisms of complex diseases. By mapping biological elements as nodes and their interactions as edges, this approach offers a simplified yet comprehensive view of how these components are interconnected. Through network structures, we can uncover hidden patterns and important associations, ultimately gaining deeper insights into biological processes. This approach guides the discovery of new biomarkers, drug targets, and therapeutic pathways, contributing to advancements in personalized medicine and our overall understanding of biological systems.
 
 
 ## Associated Gene-Gene Interaction Networks examples: 
