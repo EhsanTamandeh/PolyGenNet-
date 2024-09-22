@@ -160,6 +160,14 @@ In gene interaction networks, genes and gene products interact with each other t
 These networks exhibit properties such as modularity and scale-free topology, where a few highly connected genes (hubs) play critical roles in maintaining cellular functions. 
 Variations in these hubs or their interactions can have cascading effects on the network, leading to phenotypic changes associated with diseases. For instance, genes involved in Schizophrenia (SCZ) or other complex diseases often participate in common pathways or modules within the gene interaction network, even though the specific mutations may differ across patients.
 
+## Results
+
+![3 examples](https://drive.google.com/uc?id=1vfZz4MJL_NpgfvOHEiW4-zspkDcJMm_w)
+
+The table presents an analysis of gene networks associated with various traits, illustrating the differences between associated and non-associated networks. This comparative approach highlights how traits linked to specific conditions, such as schizophrenia, Crohn's disease, and coronary artery disease, tend to exhibit greater connectivity among genes. In associated networks, a higher number of connected genes and gene-gene interactions are observed, indicating a more intricate web of relationships that may underlie the biological mechanisms of these traits. Conversely, non-associated networks show fewer connections, suggesting a potential lack of significant interaction among the genes in these cases.
+
+The average data for all analyzed traits reinforce this trend, with associated traits generally demonstrating a more complex network structure, as evidenced by the larger number of connected genes and interactions. Additionally, the slope of the degree distribution on log-log scales indicates that associated networks maintain a more substantial presence of highly connected genes, which can be crucial for understanding the functional roles of these genes in disease processes. Overall, this analysis underscores the importance of network connectivity in elucidating the genetic basis of complex traits, providing insights that could inform future research and therapeutic strategies.
+
 
 ## Contact
 
