@@ -36,15 +36,17 @@ Network analysis provides a powerful framework for uncovering more layers of inf
 
 ## Associated Gene-Gene Interaction Networks examples: 
 <div style="display: flex; gap: 10px;">
-  <img src="graph_plot_3342.png" alt="Associated Gene-Gene Interaction Networks 1" width="300"/>
-  <img src="graph_plot_3412.png" alt="Associated Gene-Gene Interaction Networks 2" width="300"/>
+  <img src="https://drive.google.com/uc?id=1VsSVEJdFPbjaYq8jS64r8wmjbiDuxGdR" alt="Associated Gene-Gene Interaction Networks 1" width="300"/>
+  <img src="https://drive.google.com/uc?id=1kxjGg6_y4VVem4oaWhqa7xM4PcUveQ_J" alt="Associated Gene-Gene Interaction Networks 2" width="300"/>
 </div>
+
 
 ## Non-associated Gene-Gene Interaction Networks examples: 
 <div style="display: flex; gap: 10px;">
-  <img src="graph_plot_13.png" alt="Non-associated Gene-Gene Interaction Networks 3" width="300"/>
-  <img src="graph_plot_11.png" alt="Non-associated Gene-Gene Interaction Networks 4" width="300"/>
+  <img src="https://drive.google.com/uc?id=1K1oideyQ-gmqHapKv43mmIrRGQ55C_Jl" alt="Non-associated Gene-Gene Interaction Networks 1" width="300"/>
+  <img src="https://drive.google.com/uc?id=1xNEEK4FMnt6pT3JvSdxyLlgbJdzgseNs" alt="Non-associated Gene-Gene Interaction Networks 2" width="300"/>
 </div>
+
 
 For further reading, you can refer to the full article [here](link-to-the-article).
 
