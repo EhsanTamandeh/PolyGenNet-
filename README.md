@@ -117,10 +117,6 @@ This resource allows users to explore GWAS via manhattan plots, risk loci, gene-
 
 You can download the full MAGMA gene P-values from *Database Release 3: v20191115* [here](https://atlas.ctglab.nl/).
 
-**Contribute to the Database**
-
-If you find publicly available GWAS summary statistics that are not yet included, feel free to contribute through the [Report GWAS](https://atlas.ctglab.nl/report_gwas) page. Contributions help make the GWAS Atlas as comprehensive as possible, and contributors are acknowledged at the bottom of the page (except for anonymous submissions).
-
 
 ### 2. STRING db
 
