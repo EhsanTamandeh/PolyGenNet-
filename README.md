@@ -56,8 +56,7 @@ For further reading, you can refer to the full article [here](link-to-the-articl
 - [Features](#features)
 - [Contact](#contact)
 
-![GitHub license](https://img.shields.io/github/license/username/PolyGenNet)
-![GitHub stars](https://img.shields.io/github/stars/username/PolyGenNet)
+
 
 ## Project Overview
 
