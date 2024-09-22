@@ -103,27 +103,27 @@ To install and set up the PolyGenNet- framework on your local machine, follow th
 
 ### 1. GWAS Summary Statistics from the Atlas of GWAS 
 
-    The [Atlas of GWAS Summary Statistics](https://atlas.ctglab.nl/) is a rich database containing publicly available Genome-Wide Association Study (GWAS) summary statistics. Currently, the database includes:
+The [Atlas of GWAS Summary Statistics](https://atlas.ctglab.nl/) is a rich database containing publicly available Genome-Wide Association Study (GWAS) summary statistics. Currently, the database includes:
 
-    - **4,756 GWAS** from **473 unique studies**
-    - Covering **3,302 unique traits** across **28 domains**
+- **4,756 GWAS** from **473 unique studies**
+- Covering **3,302 unique traits** across **28 domains**
 
-    This resource allows users to explore GWAS via manhattan plots, risk loci, gene-based MAGMA results, SNP heritability, and genetic correlations with other GWAS in the database. Many of these datasets are based on UK Biobank release 2 data under application ID 16406.
+This resource allows users to explore GWAS via manhattan plots, risk loci, gene-based MAGMA results, SNP heritability, and genetic correlations with other GWAS in the database. Many of these datasets are based on UK Biobank release 2 data under application ID 16406.
 
-    **Download Full MAGMA Gene P-values**
+**Download Full MAGMA Gene P-values**
 
-    You can download the full MAGMA gene P-values from *Database Release 3: v20191115* [here](https://atlas.ctglab.nl/).
+You can download the full MAGMA gene P-values from *Database Release 3: v20191115* [here](https://atlas.ctglab.nl/).
 
-    **Contribute to the Database**
+**Contribute to the Database**
 
-    If you find publicly available GWAS summary statistics that are not yet included, feel free to contribute through the [Report GWAS](https://atlas.ctglab.nl/report_gwas) page. Contributions help make the GWAS Atlas as comprehensive as possible, and contributors are acknowledged at the bottom of the page (except for anonymous submissions).
+If you find publicly available GWAS summary statistics that are not yet included, feel free to contribute through the [Report GWAS](https://atlas.ctglab.nl/report_gwas) page. Contributions help make the GWAS Atlas as comprehensive as possible, and contributors are acknowledged at the bottom of the page (except for anonymous submissions).
 
 
 ### 2. STRING db
 
-    The [STRING db](https://www.string-db.org) is a database of known and predicted protein-protein interactions. The interactions include direct (physical) and indirect (functional) associations. The database contains information from numerous sources, including experimental repositories, computational prediction methods and public text collections. Each interaction is associated with a combined confidence score that integrates the various evidences.
+The [STRING db](https://www.string-db.org) is a database of known and predicted protein-protein interactions. The interactions include direct (physical) and indirect (functional) associations. The database contains information from numerous sources, including experimental repositories, computational prediction methods and public text collections. Each interaction is associated with a combined confidence score that integrates the various evidences.
 
-    To install the "STRING db" package, start R (version "4.4") and enter:
+To install the "STRING db" package, start R (version "4.4") and enter:
    ```bash
    if (!require("BiocManager", quietly = TRUE))
        install.packages("BiocManager")
@@ -133,19 +133,20 @@ To install and set up the PolyGenNet- framework on your local machine, follow th
 
 ### 3. gprofiler package
 
-    The **"g:Convert"** is a feature within the "gprofiler" package suite that allows for mapping between different biological identifiers such as genes, proteins, microarray probes, and database-specific identifiers. It supports mapping across numerous databases (e.g., Ensembl, UniProt, NCBI, etc.) and for a wide range of species.
+The **"g:Convert"** is a feature within the "gprofiler" package suite that allows for mapping between different biological identifiers such as genes, proteins, microarray probes, and database-specific identifiers. 
+It supports mapping across numerous databases (e.g., Ensembl, UniProt, NCBI, etc.) and for a wide range of species.
 
-   Key Use Cases of g:Convert:
+Key Use Cases of g:Convert:
    
-   Gene/Protein Identifier Conversion: Map identifiers across different formats, like converting Ensembl gene IDs to gene symbols or UniProt IDs.
-   Cross-Species Mapping: Transfer gene/protein information from one organism to another when homologous relationships are known.
-   Unifying Data Sources: Standardize identifiers when working with datasets from different sources that use varied naming conventions.
+Gene/Protein Identifier Conversion: Map identifiers across different formats, like converting Ensembl gene IDs to gene symbols or UniProt IDs.
+Cross-Species Mapping: Transfer gene/protein information from one organism to another when homologous relationships are known.
+Unifying Data Sources: Standardize identifiers when working with datasets from different sources that use varied naming conventions.
    
-   Example Mappings:
-   Gene to Protein ID: Convert gene symbols (like BRCA1) to corresponding UniProt or Ensembl IDs.
-   Microarray Probes to Gene Symbols: Map probe IDs from microarray data to gene names for further analysis.
+Example Mappings:
+Gene to Protein ID: Convert gene symbols (like BRCA1) to corresponding UniProt or Ensembl IDs.
+Microarray Probes to Gene Symbols: Map probe IDs from microarray data to gene names for further analysis.
 
-   To install the "g:Profiler" package in R enter:
+To install the "g:Profiler" package in R enter:
    ```bash
    install.packages("gprofiler2")
    ```
