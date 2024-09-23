@@ -45,7 +45,7 @@ Network analysis provides a powerful framework for uncovering more layers of inf
 
 ## Non-associated Gene-Gene Interaction Networks examples: 
 <div style="display: flex; gap: 10px;">
-  <img src="https://drive.google.com/uc?id=1K1oideyQ-gmqHapKv43mmIrRGQ55C_Jl" alt="Non-associated Gene-Gene Interaction Networks 1" width="300"/>
+  <img src="https://raw.githubusercontent.com/EhsanTamandeh/PolyGenNet-/EhsanTamandeh-images/graph_plot_3342.png" alt="Associated Gene-Gene Interaction Networks 1" width="300"/>
   <img src="https://drive.google.com/uc?id=1xNEEK4FMnt6pT3JvSdxyLlgbJdzgseNs" alt="Non-associated Gene-Gene Interaction Networks 2" width="300"/>
 </div>
 
