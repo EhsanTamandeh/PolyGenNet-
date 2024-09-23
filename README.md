@@ -36,7 +36,7 @@ Network analysis provides a powerful framework for uncovering more layers of inf
 
 ## Associated Gene-Gene Interaction Networks examples: 
 <div style="display: flex; gap: 10px;">
-  <img src="https://drive.google.com/uc?id=1VsSVEJdFPbjaYq8jS64r8wmjbiDuxGdR" alt="Associated Gene-Gene Interaction Networks 1" width="300"/>
+  <img src=[graph_plot_3342.png] alt="Associated Gene-Gene Interaction Networks 1" width="300"/>
   <img src="https://drive.google.com/uc?id=1kxjGg6_y4VVem4oaWhqa7xM4PcUveQ_J" alt="Associated Gene-Gene Interaction Networks 2" width="300"/>
 </div>
 
