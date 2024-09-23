@@ -35,10 +35,14 @@ Network analysis provides a powerful framework for uncovering more layers of inf
 
 
 ## Associated Gene-Gene Interaction Networks examples: 
+https://raw.githubusercontent.com/EhsanTamandeh/PolyGenNet-/EhsanTamandeh-images/graph_plot_3342.png
+https://raw.githubusercontent.com/EhsanTamandeh/PolyGenNet-/EhsanTamandeh-images/graph_plot_3412.png
+
 <div style="display: flex; gap: 10px;">
-  <img src="graph_plot_3342.png" alt="Associated Gene-Gene Interaction Networks 1" width="300"/>
-  <img src="graph_plot_3412.png" alt="Associated Gene-Gene Interaction Networks 2" width="300"/>
+  <img src="https://raw.githubusercontent.com/EhsanTamandeh/PolyGenNet-/EhsanTamandeh-images/graph_plot_3342.png" alt="Associated Gene-Gene Interaction Networks 1" width="300"/>
+  <img src="https://raw.githubusercontent.com/EhsanTamandeh/PolyGenNet-/EhsanTamandeh-images/graph_plot_3412.png" alt="Associated Gene-Gene Interaction Networks 2" width="300"/>
 </div>
+
 
 
 
