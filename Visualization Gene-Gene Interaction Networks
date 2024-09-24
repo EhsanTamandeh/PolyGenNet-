@@ -1,3 +1,46 @@
+In Python:
+
+
+
+import pandas as pd
+import networkx as nx
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_pdf import PdfPages
+
+# Define a function to create and save the network
+def create_and_save_network(csv_file, pdf_pages):
+    # Load the adjacency matrix
+    adj_matrix = pd.read_csv(csv_file, index_col=0)
+    G = nx.from_pandas_adjacency(adj_matrix)
+    
+    # Remove isolated nodes
+    G.remove_nodes_from(list(nx.isolates(G)))
+    
+    # Create the plot
+    plt.figure(figsize=(10, 9))
+    
+    # Increase the length of edges by adjusting the 'k' parameter
+    pos = nx.spring_layout(G, k=0.17)  # Larger k means more space between nodes
+    
+    nx.draw(G, pos, with_labels=True, node_color='gray', edge_color='black',
+            node_size=300, font_color='black', font_size=5, 
+            edgecolors='black')  # Use edgecolors for node borders
+    
+    # Save to PDF
+    pdf_pages.savefig()
+    plt.close()
+
+# Path to the adjacency matrix file
+file = r'Path to_adjacency matrix (A)\adj_matrix_col_num_X.csv'
+
+# Create a PDF to save the plot
+with PdfPages('network_A_X.pdf') as pdf_pages:
+    create_and_save_network(file, pdf_pages)
+-------------------------------------------------------------------------------------------
+
+
+#in R:
+
 install.packages("readr")
 
 if (!requireNamespace("BiocManager", quietly = TRUE))
