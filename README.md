@@ -176,9 +176,6 @@ Variations in these hubs or their interactions can have cascading effects on the
 
 
 
-## Acknowledgments
-
-Special thanks to my supervisors **Prof. Dr. Johannes Schumacher, Dr. Carlo Maj**, and **Dr. Pouria Dasmeh** for their contributions to the research behind this project.
 
 
 
