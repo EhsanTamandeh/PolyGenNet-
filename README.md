@@ -12,14 +12,14 @@ PolyGenNet- is a computational framework designed to analyze and visualize **gen
 ## Article Related to PolyGenNet-
 
 **Title**: 
-Trait-Specific Variations in Gene Interaction Networks Underlying Complex Human Traits  
+Network-Mediated Relaxation of Selective Constraints on Genes Associated with Human Polygenic Phenotypes
 
 **Authors**: 
 Ehsan Tamandeh, Johannes Schumacher, Carlo Maj, Pouria Dasmeh
 
 
 ## 
-This project is inspired by and associated with the research presented in the paper **Trait-Specific Variations in Gene Interaction Networks Underlying Complex Human Traits**. 
+This project is inspired by and associated with the research presented in the paper **Network-Mediated Relaxation of Selective Constraints on Genes Associated with Human Polygenic Phenotypes**. 
 
 The work explores the interplay between gene networks and complex human traits, revealing trait-specific patterns of genetic interaction. 
 
