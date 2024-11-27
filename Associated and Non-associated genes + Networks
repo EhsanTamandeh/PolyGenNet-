@@ -7,25 +7,18 @@ data_matrix <- read.table(file_path, header = TRUE)
 # Get the p-values from column X
 p_values <- data_matrix[-1, X]
 
-# Sort the p-values in ascending order
 sorted_p_values <- sort(p_values)
 
-# Choose the top 500 lowest p-values
 top_500_p_values <- head(sorted_p_values, 500)
 
-# Get the indices of the top 500 lowest p-values in the original data
 indices <- which(data_matrix[-1, X] %in% top_500_p_values)
 
-# Get the corresponding names from column 1 based on the indices
 related_names <- data_matrix[indices + 1, 1]  # Adding 1 to indices due to header row
 
 # Choose the file path to save the results
 output_file <- file.choose()
 
-# Save the related names to the chosen file
 write.table(related_names, file = output_file, col.names = FALSE, row.names = FALSE, quote = FALSE)
-
-# Print a message indicating successful save
 cat("Result saved to file:", output_file, "\n")
 
 #Non-Associated
@@ -34,55 +27,33 @@ cat("Result saved to file:", output_file, "\n")
 
 file_path <- file.choose()
 data_matrix <- read.table(file_path, header = TRUE)
-# Get the p-values from column X
 p_values <- data_matrix[-1, X]
 
-# Sort the p-values in descending order
 sorted_p_values <- sort(p_values, decreasing = TRUE)
 
-# Choose the top 500 highest p-values
 top_500_p_values <- head(sorted_p_values, 500)
 
-# Get the indices of the top 500 highest p-values in the original data
 indices <- which(data_matrix[-1, X] %in% top_500_p_values)
 
-# Get the corresponding names from column 1 based on the indices
 related_names <- data_matrix[indices + 1, 1]  # Adding 1 to indices due to header row
 
-# Choose the file path to save the results
 output_file <- file.choose()
 
-# Save the related names to the chosen file
 write.table(related_names, file = output_file, col.names = FALSE, row.names = FALSE, quote = FALSE)
-
-# Print a message indicating successful save
 cat("Result saved to file:", output_file, "\n")
 
-# Prompt user to select a file
-file_path <- file.choose()
-
-# Read data from the selected file
 data_matrix <- read.table(file_path, header = TRUE)
-
-# Get the p-values from column A
 p_values <- data_matrix[-1, X]
 
-# Sort the p-values in ascending order
 sorted_p_values <- sort(p_values)
 
-# Choose the top 500 lowest p-values
 top_500_p_values <- head(sorted_p_values, 500)
-
-# Get the indices of the top 500 lowest p-values in the original data
 indices <- which(data_matrix[-1, X] %in% top_500_p_values)
 
-# Get the corresponding names from column 1 based on the indices
 related_names <- data_matrix[indices + 1, 1]  # Adding 1 to indices due to header row
 
 # Map the related names to IDs using the gconvert function
 X <- gconvert(query = related_names, organism = "hsapiens", target = "ENSG")
-
-# Extract data from column C ('name' column)
 proteins <- X$name
 proteins <- as.character(proteins)
 
@@ -96,26 +67,19 @@ int_net <- rba_string_interactions_network(ids = proteins_ids,
                                            network_type = "functional",
                                            required_score = 900)
 
-# Extract relevant columns for the graph
 matrix <- int_net[, c(3, 4, 6)]  # Assuming the columns are for gene names, scores, and IDs
 
-# Load the igraph library
 library(igraph)
 
-# Create igraph graph object
 graph <- graph_from_data_frame(matrix, directed = FALSE)
 
-# Set edge weights to connectivity values
 E(graph)$weight <- matrix$score
 
-# Remove duplicates
 graph <- simplify(graph)
 
-# Set node and edge colors
 node_color <- "#808080"  # Gray
 edge_color <- "#000000"  # Black
 
-# Prompt user to select a folder to save the plots
 folder_path <- dirname(file.choose())
 
 # Plot the graph
