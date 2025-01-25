@@ -12,7 +12,8 @@ PolyGenNet- is a computational framework designed to analyze and visualize **gen
 ## Article Related to PolyGenNet-
 
 **Title**: 
-A Systematic Analysis of Epistatic Gene-Interaction Networks Underlying Human Polygenic Phenotypes
+A Systematic Analysis of Gene-Gene Interaction Networks Underlying Human Polygenic Phenotypes
+
 
 **Authors**: 
 
