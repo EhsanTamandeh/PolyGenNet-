@@ -1,3 +1,33 @@
+#install packages
+
+install.packages("readr")
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("STRINGdb")
+
+install.packages("STRINGdb")
+install.packages("igraph")
+install.packages("rbioapi")
+install.packages("fitdistrplus")
+install.packages("gprofiler2")
+install.packages("MASS")
+install.packages("survival")
+
+#load packages
+library("readr")
+library("STRINGdb")
+library("igraph")
+library("rbioapi")
+library("fitdistrplus")
+library("gprofiler2")
+library("MASS")
+library("survival")
+library("fitdistrplus")
+
+#------------------------------------------------
+
 #Associated
 
 #Top lowest P-values
