@@ -2,7 +2,6 @@
 
 file_path <- file.choose()
 data_matrix <- read.table(file_path, header = TRUE)
-# Define the list of columns A (traits=columns-1) #Trait IDs
 
 A <- 1:4756  # Define the range of column numbers to process
 
