@@ -1,15 +1,15 @@
 <div align="center">
-    <h1>PolyGenNet-</h1>
+    <h1>NetPolyGen-</h1>
     
 </div>
 
 
 # Introduction
 
-PolyGenNet- is a computational framework designed to analyze and visualize **gene-gene interaction networks** in the context of complex human traits. The platform integrates multiple datasets to uncover trait-specific variations in gene interactions and provides an accessible interface for both exploratory analysis and hypothesis-driven research.
+NetPolyGen- is a computational framework designed to analyze and visualize **gene-gene interaction networks** in the context of complex human traits. The platform integrates multiple datasets to uncover trait-specific variations in gene interactions and provides an accessible interface for both exploratory analysis and hypothesis-driven research.
 
 
-## Article Related to PolyGenNet-
+## Article Related to NetPolyGen-
 
 **Title**: 
 A Systematic Analysis of Gene-Gene Interaction Networks Underlying Human Polygenic Phenotypes
